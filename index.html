@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Portfolio</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="index.html"><img src="images/rlogo.gif" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>Home</span></a></li>
+										<li><a class="scroll" href="#about"><span>About</span></a></li>
+										<li><a class="scroll" href="#skill"><span>Skill</span></a></li>
+										<li><a class="scroll" href="#education"><span>Education</span></a></li>
+										<li><a class="scroll" href="#work"><span>Experience</span></a></li>
+										<!-- <li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li> -->
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/ritesh.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>RITESH SINGH</h1>
+				<div class="border"></div>
+				<h2>WEB DEVELOPER</h2>
+				<a href="myresume.doc">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>I am Ritesh singh from Varanasi.
+I have completed graduation in Master of Computer Application 
+from SRM University. 
+In my family there are five members my father is HGA(LIC) and mother is homemaker.
+I have elder brother and sister my strong point is ability to the work in under pressure, hard working 
+My hobbies are listening to music, internet browsing.</p>
+		<ul>
+			<li><a class="fb" href="https://www.facebook.com/profile.php?id=100002216145038" target="_blank"></a></li>
+			<li><a class="twit" href="https://twitter.com/ritesh941568356" target="_blank"></a></li>
+			<li><a class="in" href="https://www.linkedin.com/in/ritesh-singh-78936079?trk=nav_responsive_tab_profile" target="_blank"></a></li>
+			<li><a class="goog" href="https://plus.google.com/116587315608161653749/posts" target="_blank"></a></li>
+			<li><a class="pin" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="about-back"></div>
+<div class="my-skills text-center" id="skill">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Angular Js</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>PHP</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>MY Sql</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Fire Base</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>BootStrap</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Html / CSS</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 5);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<div class="my-skill-back"></div>
+<div class="education text-center" id="education">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-6 edu-grid">
+				<p>2013-2016</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER DEGREE OF COMPUTER APPLICATION</h3>
+						<h4>SRM UNIVERSITY</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>I have started doing MCA in the year 2013 and completed in 2016.I have secured 80% Marks in MCA degree.</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 edu-grid">
+				<p>2010-2013</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHOLAR DEGREE OF COMPUTER APPLICATION</h3>
+						<h4>MGKVP VARANASI</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>I have started doing BCA in the year 2010 and completed in 2013.I have secured 74% Marks in BCA degree.</h5>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<div class="strip-border"><p></p></div>
+<div class="work-experience text-center" id="work">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-6 w-grid">
+				<div class="work-grid">
+					<h3>2016 - Now</h3>
+					<div class="work-grid-info">
+						<h4>ANHAD EDUTRAIN</h4>
+						<h5>WEB DEVELOPER</h5>
+						<p>I have started doing internship with Anhad Edutrain at 22 Dec 2015. Here I am working with the latest technologies like Angular JS, Node.JS, Firebase, HTML5, CSS3 & Bootstrap</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 w-grid">
+				<div class="work-grid">
+					<h3>2015</h3>
+					<div class="work-grid-info">
+						<h4>Xperia Technology</h4>
+						<h5>WEB DEVELOPER</h5>
+						<p>I have started doing internship with XPERT INFOTECH in APRIL 2015, when i am pursuing MCA, here I learned HTML, CSS, JavaScript, JQuery, PHP & Mysql </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="services-back"></div>
+
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>PROJECT</h3>
+		</div>
+		<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-6 ser-grid">
+				<div><img src="images/c1.png" alt=" "/></div>
+				<h3>MY MISSION ADMISIION</h3>
+				<p>Now I am working with the latest technologies like Angular JS, Node.JS, Firebase, HTML5, CSS3 & Bootstrap.</p>
+			</div>
+			<div class="col-md-6 ser-grid">
+				<div ><img src="images/c1.png" alt=" "/></div>
+				<h3>ONLINE EXAMINATION</h3>
+				<p>In this project we use technologies like PHP,MY SQL, HTML, CSS & JAVASCRIPT.</p>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div> 
+ <!-- <div class="gallery-section text-center" >
+	<div class="container" id="portfolio">
+		<h3>FAMILY PORTFOLIO</h3>
+		<div class="strip text-center"><img src="images/port.png"  alt=" "/></div>
+		<p></p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/p1.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">MY FATHER</p>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/p2.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">MY MOTHER</p>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/p3.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">MY BROTHER</p>
+				</div>
+				
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/p4.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">MY SISTER</p>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/p5.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">MY AUNTY</p>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/ritesh.png" class="img-circle" alt="Cinque Terre" width="500" height="400">
+					<p style="font-family: cursive;color: bisque; text-decoration: underline;">RITESH </p>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div> -->
+
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>230/20A, Street no.-6,Railway Colony, </li>
+					<li>Mandawali fazalpur, delhi-110092</li>
+					<li>mob:-7376357794,9716253461</li>
+					<li>riteshs443@gmail.com<br>riteshsingh432@gmail.com</li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<a href="mailto:riteshs443@gmail.com" class="btn btn-block btn-lg btn-success"><span class="glyphicon glyphicon-envelope"></span> SEND</a>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="myresume.doc">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Designed By Ritesh Singh</p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
