@@ -1,8 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Personal Portfolio</title>
+        <meta charset="utf-8">
+	<title>Ritesh Singh | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Angularjs,HTML,CSS,JavaScript,SQL,PHP,Bootstrap,Web development,Software development,Portfolio,Ritesh Singh.">
+    <meta name="description" content="Ritesh Singh , Software developer , AngularJs Developer , Web Developer ,Portfolio">
+    <meta name="google-site-verification" content="mQ3FM5qJxQykEg7KZbYs8cKf9znr0KTzTu4u1G0iKWY" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<!--fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -10,11 +15,8 @@
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- for-mobile-apps -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -58,8 +60,8 @@
 										<li><a class="scroll" href="#skill"><span>Skill</span></a></li>
 										<li><a class="scroll" href="#education"><span>Education</span></a></li>
 										<li><a class="scroll" href="#work"><span>Experience</span></a></li>
-										<!-- <li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
-										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<!-- <li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
 										<li><a class="scroll" href="#blog"><span>blog</span></a></li> -->
 										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
 										<div class="clearfix"> </div>
@@ -103,7 +105,7 @@
 			<div class="banner-right">
 				<h1>RITESH SINGH</h1>
 				<div class="border"></div>
-				<h2>WEB DEVELOPER</h2>
+				<h2>SOFTWARE DEVELOPER</h2>
 				<a href="myresume.doc">DOWNLOAD MY RESUME</a>
 			</div>
 			<div class="clearfix"></div>
@@ -115,12 +117,7 @@
 	<div class="container">
 		<h3>ABOUT ME</h3>
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>I am Ritesh singh from Varanasi.
-I have completed graduation in Master of Computer Application 
-from SRM University. 
-In my family there are five members my father is HGA(LIC) and mother is homemaker.
-I have elder brother and sister my strong point is ability to the work in under pressure, hard working 
-My hobbies are listening to music, internet browsing.</p>
+		<p>I am Ritesh singh from Varanasi. I have completed post graduation in Master of Computer Application from SRM University.Now I am working with startup which gave me chance to explore myself and grow my technical and non technical skills.</p>
 		<ul>
 			<li><a class="fb" href="https://www.facebook.com/profile.php?id=100002216145038" target="_blank"></a></li>
 			<li><a class="twit" href="https://twitter.com/ritesh941568356" target="_blank"></a></li>
@@ -139,15 +136,15 @@ My hobbies are listening to music, internet browsing.</p>
 		<div class="skill-grids">
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>Angular Js</p>
+						<p>MY Sql</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>PHP</p>
+						<p>Laravel</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>MY Sql</p>
+						<p>HTML/CSS/BootStrap</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
@@ -155,12 +152,13 @@ My hobbies are listening to music, internet browsing.</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-5"></div>
-						<p>BootStrap</p>
+						<p>PHP/Wordpress</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-6"></div>
-						<p>Html / CSS</p>
+						<p>Angular Js</p>
 					</div>
+
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
 					         <script>
@@ -169,7 +167,7 @@ My hobbies are listening to music, internet browsing.</p>
 									];
 								for (var i = 1; i <= 7; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 30 + (i * 5);
+										percentage = 30 + (i * 8);
 										
 									Circles.create({
 										id:         child.id,
@@ -195,7 +193,7 @@ My hobbies are listening to music, internet browsing.</p>
 		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
 		<div class="edu-grids">
 			<div class="col-md-6 edu-grid">
-				<p>2013-2016</p><span>Graduated</span>
+				<p>2013-2016</p><span> Post-Graduated</span>
 				<img src="images/arrow.png" alt=""/>
 				<div class="edu-border">
 					<div class="edu-grid-master">
@@ -238,11 +236,11 @@ My hobbies are listening to music, internet browsing.</p>
 		<div class="work-grids">
 			<div class="col-md-6 w-grid">
 				<div class="work-grid">
-					<h3>2016 - Now</h3>
+					<h3>2015 - Now</h3>
 					<div class="work-grid-info">
 						<h4>ANHAD EDUTRAIN</h4>
-						<h5>WEB DEVELOPER</h5>
-						<p>I have started doing Work with Anhad Edutrain at 22 Dec 2015. Here I am working with the latest technologies like Angular JS, Node.JS, Firebase, HTML5, CSS3 & Bootstrap</p>
+						<h5>SOFTWARE DEVELOPER</h5>
+						<p>I have started doing Work with Anhad Edutrain at Dec 2015. Here I am working with the latest technologies like Angular JS, Node.JS, Firebase, HTML5, CSS3 & Bootstrap</p>
 					</div>
 				</div>
 			</div>
@@ -251,7 +249,7 @@ My hobbies are listening to music, internet browsing.</p>
 					<h3>2015</h3>
 					<div class="work-grid-info">
 						<h4>Xperia Technology</h4>
-						<h5>WEB DEVELOPER</h5>
+						<h5>SOFTWARE DEVELOPER</h5>
 						<p>I have started doing internship with XPERT INFOTECH in APRIL 2015, when i am pursuing MCA, here I learned HTML, CSS, JavaScript, JQuery, PHP & Mysql </p>
 					</div>
 				</div>
@@ -263,23 +261,50 @@ My hobbies are listening to music, internet browsing.</p>
 </div>
 <div class="services-back"></div>
 
-<div class="services text-center" id="services">
+<div class="services text-center" id="portfolio">
 	<div class="container">
 		<div class="ser-info">
 			<h3>PROJECT</h3>
 		</div>
 		<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
 		<div class="ser-grids">
-			<div class="col-md-6 ser-grid">
-				<div><img src="images/c1.png" alt=" "/></div>
-				<h3>MY MISSION ADMISIION</h3>
-				<p>Now I am working with the latest technologies like Angular JS, Node.JS, Firebase, HTML5, CSS3 & Bootstrap.</p>
+			<div class="col-md-4 ser-grid">
+				<div><img src="images/mma.png" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://www.mymissionadmission.com" target="_blank"><h3>MY MISSION ADMISIION</h3></a>
+				<p>Education</p>
 			</div>
-			<div class="col-md-6 ser-grid">
-				<div ><img src="images/c1.png" alt=" "/></div>
-				<h3>ONLINE EXAMINATION</h3>
-				<p>In this project we use technologies like PHP,MY SQL, HTML, CSS & JAVASCRIPT.</p>
+
+			<div class="col-md-4 ser-grid">
+				<div><img src="images/cap.png" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://www.Edoofa.com" target="_blank"><h3>EDOOFA</h3></a>
+				<p>Blog</p>
 			</div>
+
+			<div class="col-md-4 ser-grid">
+				<div ><img src="images/c1.png" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://riteshsingh.in/exam/" target="_blank"><h3>ONLINE EXAMINATION</h3></a>
+				<p>Quiz</p>
+			</div>
+
+			<div class="col-md-4 ser-grid">
+				<div ><img src="images/syf.jpg" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://syfoundation.in/" target="_blank"> <h3>SAROVADAYA YOUTH FOUNDATION</h3></a>
+				<p>NGO</p>
+			</div>
+
+			<div class="col-md-4 ser-grid">
+				<div ><img src="images/anhad.jpg" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://anhadedutrain.com/" target="_blank"><h3>Anhad EDUTRAIN SOLUTION PVT. LTD.</h3></a>
+				<p>Company</p>
+			</div>
+
+			<div class="col-md-4 ser-grid">
+				<div ><img src="images/gct.png" style="width: 100px; height: 69px;" alt=" "/></div>
+				<a href="http://www.globalcharitabletrust.in/" target="_blank"><h3>GLOBAL CHARITABLE TRUST</h3></a>
+				<p>NGO</p>
+			</div>
+
+
 
 			<div class="clearfix"></div>
 		</div>
@@ -331,7 +356,7 @@ My hobbies are listening to music, internet browsing.</p>
 	</div>
 </div> -->
 
-<div class="contact" id="contact">
+<div class="contact" id="contact" ng-app="myapp" ng-controller="ctrl">
 	<div class="container">
 		<div class="contact-info text-center">
 			<h3>CONTACT</h3>
@@ -345,17 +370,17 @@ My hobbies are listening to music, internet browsing.</p>
 					<li>230/20A, Street no.-6,Railway Colony, </li>
 					<li>Mandawali fazalpur, delhi-110092</li>
 					<li>mob:-7376357794,9716253461</li>
-					<li>riteshs443@gmail.com<br>riteshsingh432@gmail.com</li>
+					<li>developer@riteshsingh.in<br>riteshs443@gmail.com</li>
 				</ul>
 			</div>
 			<div class="col-md-7 contact-right">
 				<h3>Drop Me A Line</h3>
 				<div class="stripb"></div>
-				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
-					<a href="mailto:riteshs443@gmail.com" class="btn btn-block btn-lg btn-success"><span class="glyphicon glyphicon-envelope"></span> SEND</a>
+				<form ng-submit="mail(name,email,msg)">
+					<input type="text" placeholder="Name" ng-model="name" required>
+					<input type="text" placeholder="email" ng-model="email" required>
+					<textarea type="text" ng-model="msg" required>Message</textarea>
+					<button class="btn btn-block btn-lg btn-success" type="submit"><span class="glyphicon glyphicon-envelope"></span> SEND</button>
 				</form>
 			</div>
 			<div class="clearfix"></div>
@@ -399,3 +424,23 @@ My hobbies are listening to music, internet browsing.</p>
 <!-- //here ends scrolling icon -->
 </body>
 </html>
+
+<script>
+	var app= angular.module('myapp',[]);
+	app.controller('ctrl',function($scope,$http){
+		$scope.mail=function(name,email,msg){
+			$http({
+                method      : "POST",
+                url         : "http://sarvodaya.herokuapp.com/riteshmail",
+                dataType    : "json",
+                data        :{ 
+                'email'     :   email,
+                'msg'       :   msg,
+                'name'      :   name
+                },
+            }).then(function(response){
+              console.log(response.data);
+            })
+		};
+	});
+</script>		
